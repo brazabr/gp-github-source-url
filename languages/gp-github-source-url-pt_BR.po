@@ -1,0 +1,43 @@
+# Copyright (C) 2017 Thiago Benvenuto
+# This file is distributed under the GPLv2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: GlotPress Github Source Url 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/brazabr/gp-github-source-url\n"
+"POT-Creation-Date: 2017-01-09 21:04:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-01-09 19:07-0300\n"
+"Last-Translator: Thiago Benvenuto <t.benvenuto@proxio.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: pt-BR\n"
+
+#: glotpress_github_sourceurl.php:61
+msgid ""
+" or https://github.com/GlotPress/GlotPress-WP/%file%#L%line%"
+msgstr ""
+" ou https://github.com/GlotPress/GlotPress-WP/%file%#L%line%"
+
+#. Plugin Name of the plugin/theme
+msgid "GlotPress Github Source Url"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/brazabr/glotpress_github_sourceurl"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Modifies GlotPress to make source urls compatible with Github"
+msgstr ""
+"Modifica o GlotPress para construir links ao código fonte compatíveis com "
+"GitHub"
+
+#. Author of the plugin/theme
+msgid "Thiago Benvenuto"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/brazabr"
+msgstr ""
