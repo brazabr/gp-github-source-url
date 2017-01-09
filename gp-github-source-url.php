@@ -43,7 +43,9 @@ function gp_github_source_url_init() {
 	load_textdomain( 'gp-github-source-url', WP_LANG_DIR . '/gp_github_source-url/gp-github-source-url-' . $locale . '.mo' );
 	load_plugin_textdomain( 'gp-github-source-url', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
-	wp_register_script( 'gp-github-source-url', GP_GITHUB_SOURCE_URL_URL . '/assets/js/gp-github-source-url.js', [ 'jquery' ], GP_GITHUB_SOURCE_URL_VERSION, true );
+	$minified = ( WP_DEBUG == true ) ? '' : '.min';
+
+	wp_register_script( 'gp-github-source-url', GP_GITHUB_SOURCE_URL_URL . '/assets/js/gp-github-source-url' . $minified . '.js', [ 'jquery' ], GP_GITHUB_SOURCE_URL_VERSION, true );
 	$translations = array(
 		'template_example' => __( ' or https://github.com/GlotPress/GlotPress-WP/%file%#L%line%', 'gp-github-source-url' ),
 	);
