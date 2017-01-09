@@ -2,7 +2,7 @@
 # This file is distributed under the GPLv2+.
 msgid ""
 msgstr ""
-"Project-Id-Version: GlotPress Github Source Url 0.1.0\n"
+"Project-Id-Version: GP Github Source Url 0.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/brazabr/gp-github-source-url\n"
 "POT-Creation-Date: 2017-01-09 21:04:10+00:00\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "Language: pt-BR\n"
 
-#: glotpress_github_sourceurl.php:61
+#: gp-github-source-url.php:50
 msgid ""
 " or https://github.com/GlotPress/GlotPress-WP/%file%#L%line%"
 msgstr ""
